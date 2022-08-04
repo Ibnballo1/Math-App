@@ -1,70 +1,54 @@
-# Math App
+# Math Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the first project of the Math Web application. I will set up the environment and tools needed to develop a React application. In the following projects, I will develop the actual application.
 
-## Available Scripts
+# Built With
 
-In the project directory, you can run:
+- Major Languages
+  - HTML
+  - CSS
+  - JavaScript
+  - React
 
-### `npm start`
+# Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get a local copy up and running, follow these simple steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+First copy this repo and clone it on your machine using this [link](git@github.com:Ibnballo1/Maths-Guru-App.git).
+Then cd into Maths-Guru-App and then cd into maths-web-app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Install
 
-### `npm run build`
+`npm install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Start Server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Authors
 
-### `npm run eject`
+:adult: Abdullateef Bello
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- GitHub: [@Ibnballo1](https://github.com/Ibnballo1/)
+- Linkedin: [Abdullateef Bello](https://www.linkedin.com/in/abdullateef-bello-1b8006228/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Ibnballo1/Maths-Guru-App/issues)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Live Demo
 
-## Learn More
+# Show your support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Kindly give a :hearts: if you like this.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acknowledgement
 
-### Code Splitting
+- We expressed our gratitude for everyone.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](https://github.com/Ibnballo1/Maths-Guru-App/blob/51738162ea86b195967e089ca0c96b04f771af09/maths-web-app/MIT.md).
