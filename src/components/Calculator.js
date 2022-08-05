@@ -5,9 +5,9 @@
 /* eslint-disable lines-between-class-members */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import Result from './Result.js';
+import Result from './Result';
 import './Cal.css';
-import Keypads from './Keypads.js';
+import Keypads from './Keypads';
 
 class Calculator extends React.Component {
   constructor(props) {
