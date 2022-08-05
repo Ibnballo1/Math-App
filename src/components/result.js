@@ -6,7 +6,7 @@ class Result extends React.Component {
   render() {
     return (
       <div className="resultBox">
-        <p>0</p>
+        <p className="results">0</p>
       </div>
     );
   }

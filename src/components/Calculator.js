@@ -6,6 +6,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import Result from './result';
+import './Cal.css';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class Calculator extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="calContainer">
         <Result />
       </div>
     );

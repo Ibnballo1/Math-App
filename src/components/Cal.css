@@ -1,3 +1,26 @@
-resultBox {
-    border: 2px solid red;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.calContainer {
+  border: 2px solid purple;
+  min-height: 100vmin;
+}
+
+.resultBox {
+  border: 2px solid red;
+  width: 20%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+  background: #858693;
+}
+
+.results {
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
 }
