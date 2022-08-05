@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-useless-constructor */
 /* eslint-disable react/self-closing-comp */
@@ -5,9 +6,9 @@
 /* eslint-disable lines-between-class-members */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import Result from './Result';
+import Result from './Result.js';
 import './Cal.css';
-import Keypads from './Keypads';
+import Keypads from './Keypads.js';
 
 class Calculator extends React.Component {
   constructor(props) {
