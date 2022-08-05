@@ -5,7 +5,7 @@ import React from 'react';
 class Keypads extends React.Component {
   render() {
     return (
-      <table className="tableData" border={1}>
+      <table className="tableData">
         <tr>
           <td>AC</td>
           <td>+/-</td>
@@ -33,7 +33,7 @@ class Keypads extends React.Component {
         <tr>
           <td colSpan={2}>0</td>
           <td>.</td>
-          <td>=</td>
+          <td className="rightOperator">=</td>
         </tr>
       </table>
     );
