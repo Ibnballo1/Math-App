@@ -4,12 +4,10 @@
 }
 
 .calContainer {
-  border: 2px solid purple;
   min-height: 100vmin;
 }
 
 .resultBox {
-  border: 2px solid red;
   width: 20%;
   height: 35px;
   display: flex;
@@ -26,5 +24,19 @@
 }
 
 .tableData {
-  width: 20.9%;
+  width: 20.6%;
+  border-spacing: 0;
+}
+
+td {
+  height: 40px;
+  width: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  background: #e0e0e0;
+}
+
+.rightOperator {
+  background: #f5913e;
 }
