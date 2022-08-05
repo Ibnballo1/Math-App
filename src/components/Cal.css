@@ -5,6 +5,10 @@
 
 .calContainer {
   min-height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .resultBox {
@@ -29,6 +33,7 @@
 }
 
 td {
+  border: 0.01rem solid #d7d7d7;
   height: 40px;
   width: 50px;
   text-align: center;
