@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable import/extensions */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-useless-constructor */

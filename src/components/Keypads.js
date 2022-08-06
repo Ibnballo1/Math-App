@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable react/self-closing-comp */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
