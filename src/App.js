@@ -12,37 +12,37 @@ import calculate from './logic/calculate';
 const App = () => {
   const [item, setItem] = useState({
     calcV: {},
-    res: '0',
+    result: '0',
   });
 
   const handler = (event) => {
     const { calcV } = item;
     const calc = calculate(calcV, event.target.value);
     const { total, next, operation } = calc;
-    let res = '';
+    let result = '';
 
     if (total) {
-      res += total;
+      result += total;
     }
 
     if (operation) {
-      res += operation;
+      result += operation;
     }
 
     if (next) {
-      res += next;
+      result += next;
     }
 
-    if (res.length === 0) res = '0';
+    if (result.length === 0) result = '0';
 
-    setItem({ calcV: calc, res });
+    setItem({ calcV: calc, result });
   };
 
-  const { res } = item;
+  const { result } = item;
 
   return (
     <div className="App">
-      <Calculator handler={handler} total={res} />
+      <Calculator handler={handler} total={result} />
     </div>
   );
 };
