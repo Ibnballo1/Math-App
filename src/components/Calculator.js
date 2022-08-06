@@ -11,7 +11,7 @@ import propTypes from 'prop-types';
 import './Cal.css';
 
 const Calculator = (props) => {
-  const items = ['0.00', 'AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='];
+  const data = ['0.00', 'AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='];
 
   const { total, handler } = props;
   const keypad = 'button';
@@ -19,11 +19,11 @@ const Calculator = (props) => {
   return (
     <div className={calculator}>
       {
-        items.map((value, index) => {
+        data.map((eachData, index) => {
           if (index === 0) {
             return <input type={keypad} readOnly className={`item${index}`} key={`item${index + 1}`} value={total} />;
           }
-          return <input type={keypad} onClick={handler} className={`item item${index}`} key={`item${index + 1}`} value={value} />;
+          return <input type={keypad} onClick={handler} className={`item item${index}`} key={`item${index + 1}`} value={eachData} />;
         })
       }
     </div>
