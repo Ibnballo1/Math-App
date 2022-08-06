@@ -7,24 +7,32 @@
 /* eslint-disable lines-between-class-members */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import Result from './Result.js';
+import propTypes from 'prop-types';
 import './Cal.css';
-import Keypads from './Keypads.js';
-import calculate from '../logic/calculate.js';
-import operate from '../logic/operate.js';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return (
-      <div className="calContainer">
-        <Result />
-        <Keypads />
-      </div>
-    );
-  }
-}
+const Calculator = (props) => {
+  const items = ['0.00', 'AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='];
+
+  const { total, handler } = props;
+  const keypad = 'button';
+  const calculator = 'calContainer';
+  return (
+    <div className={calculator}>
+      {
+        items.map((value, index) => {
+          if (index === 0) {
+            return <input type={keypad} readOnly className={`item${index}`} key={`item${index + 1}`} value={total} />;
+          }
+          return <input type={keypad} onClick={handler} className={`item item${index}`} key={`item${index + 1}`} value={value} />;
+        })
+      }
+    </div>
+  );
+};
+
+Calculator.propTypes = {
+  total: propTypes.string.isRequired,
+  handler: propTypes.func.isRequired,
+};
 
 export default Calculator;
