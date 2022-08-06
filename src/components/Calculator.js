@@ -10,6 +10,8 @@ import React from 'react';
 import Result from './Result.js';
 import './Cal.css';
 import Keypads from './Keypads.js';
+import calculate from '../logic/calculate.js';
+import operate from '../logic/operate.js';
 
 class Calculator extends React.Component {
   constructor(props) {
