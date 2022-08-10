@@ -5,7 +5,9 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable react/self-closing-comp */
 /* eslint-disable linebreak-style */
-import React, { useState } from 'react';
+import * as React from 'react';
+import { useState } from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import calculate from './logic/calculate';
 
@@ -42,6 +44,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1>Math Magicians</h1>
       <Calculator handler={handler} total={result} />
     </div>
   );
