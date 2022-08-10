@@ -45,7 +45,9 @@ const App = () => {
   return (
     <div className="App">
       <h1>Math Magicians</h1>
-      <Calculator handler={handler} total={result} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 };
