@@ -1,13 +1,6 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-unused-vars */
-/* eslint-disable linebreak-style */
-/* eslint-disable react/prefer-stateless-function */
-/* eslint-disable linebreak-style */
-/* eslint-disable react/self-closing-comp */
-/* eslint-disable linebreak-style */
 import * as React from 'react';
 import { useState } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Header from './components/Header';
 import Calculator from './components/Calculator';
