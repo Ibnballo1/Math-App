@@ -8,7 +8,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import propTypes from 'prop-types';
-import './Cal.css';
 
 const Calculator = (props) => {
   const data = ['0.00', 'AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='];
@@ -17,7 +16,7 @@ const Calculator = (props) => {
   const keypad = 'button';
   const calculator = 'calContainer';
   return (
-    <>
+    <section className="sections">
       <p>Let&apos; do some math!</p>
       <div className={calculator}>
         {
@@ -29,7 +28,7 @@ const Calculator = (props) => {
           })
         }
       </div>
-    </>
+    </section>
   );
 };
 
