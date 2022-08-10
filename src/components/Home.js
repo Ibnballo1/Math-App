@@ -2,14 +2,12 @@
 /* eslint-disable react/prefer-stateless-function */
 /* eslint-disable linebreak-style */
 import React from 'react';
-import Header from './Header';
 
 class Home extends React.Component {
   render() {
     return (
       <>
         <div>
-          <Header />
           <h2>Welcome to our page!</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
