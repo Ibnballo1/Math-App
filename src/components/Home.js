@@ -7,9 +7,9 @@ class Home extends React.Component {
   render() {
     return (
       <>
-        <div>
-          <h2>Welcome to our page!</h2>
-          <p>
+        <div className="homeDiv">
+          <h2 className="h2">Welcome to our page!</h2>
+          <p className="homePara">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Praesentium omnis officia blanditiis laborum necessitatibus deserunt iusto,
             sapiente ipsa quibusdam expedita!
@@ -38,33 +38,6 @@ class Home extends React.Component {
             quibusdam sunt accusantium officia sint corporis?
             Sapiente asperiores explicabo blanditiis in,
             beatae pariatur iusto architecto?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Eum amet, dolor ex cupiditate nemo,
-            tempore sint fugiat laudantium, eaque corporis magnam perspiciatis provident asperiores
-            facere iste reprehenderit ab voluptates ipsam non laborum et.
-            Numquam sit a temporibus,
-            consectetur quisquam fugit consequatur amet dolores accusantium assumenda,
-            tenetur quis maiores voluptatibus.
-            Repudiandae est sequi totam,
-            voluptas quidem rem sed necessitatibus.
-            Sed quas quae quibusdam labore perferendis
-            minima temporibus id harum totam nemo commodi sint facilis,
-            doloremque consequuntur nihil.
-            Minima necessitatibus natus sint incidunt quidem doloremque laudantium minus!
-            Quae earum doloribus suscipit aliquam nostrum?
-            Eos officia quaerat expedita,
-            aliquid ducimus voluptatum velit.
-            Vitae quis in laboriosam quisquam voluptas quod perspiciatis
-            quidem nobis similique nisi libero,
-            autem error maiores totam?
-            Totam suscipit doloribus eos nulla necessitatibus illum odio autem possimus,
-            tempore consequatur incidunt dignissimos ratione assumenda at soluta maiores
-            similique quaerat architecto voluptates,
-            recusandae corporis?
-            Explicabo omnis eaque ea vero natus facilis architecto facere commodi nisi?
-            Dolorem aut officiis facere voluptas odio optio ut?
           </p>
         </div>
       </>

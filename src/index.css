@@ -1,7 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
-  min-height: 100vmin;
+  height: 100vh;
+  background: #F7d2e1;
+}
+
+.header,
+.homeDiv,
+.divQuote {
+  padding: 1rem;
+}
+
+.header {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+
+.h1,
+.links,
+.para,
+.h2,
+.homePara,
+.quotePara {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.h1 {
+  font-size: 3rem;
+  color: #e52165;
+}
+
+.navbar {
+  width: 20%;
+  padding-right: 6.25rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links {
+  color: #0d1137;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.sections {
+  padding: 1.5rem;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.para {
+  font-style: italic;
+  font-size: 1.75rem;
+  padding-left: 2rem;
+  color: #0d1137;
+}
+
+.calContainer {
+  border: 1px solid #d6d6d6;
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+input {
+  border-radius: 0;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.item0 {
+  border: none;
+  grid-column: 1/5;
+  text-align: right;
+  padding: 0.5rem;
+  font-weight: 400;
+  font-size: 1.875rem;
+  background: #0d1137;
+}
+
+.item17 {
+  grid-column: 1/3;
+}
+
+.item {
+  border: 1px solid #d7d7d7;
+  background: #322514;
+}
+
+.item:hover {
+  background: #e75874;
+  color: #000;
+}
+
+.item4,
+.item8,
+.item12,
+.item16,
+.item19 {
+  background: #e52165;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  padding: 1rem 0;
+}
+
+.homePara {
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.divQuote {
+  display: flex;
+  justify-content: center;
+}
+
+.quotePara {
+  margin: 16rem auto;
+  font-size: 2rem;
 }

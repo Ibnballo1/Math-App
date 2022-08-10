@@ -17,7 +17,7 @@ const Calculator = (props) => {
   const calculator = 'calContainer';
   return (
     <section className="sections">
-      <p>Let&apos; do some math!</p>
+      <p className="para">Let&apos; do some math!</p>
       <div className={calculator}>
         {
           data.map((eachData, index) => {
