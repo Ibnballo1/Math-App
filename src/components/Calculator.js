@@ -17,16 +17,19 @@ const Calculator = (props) => {
   const keypad = 'button';
   const calculator = 'calContainer';
   return (
-    <div className={calculator}>
-      {
-        data.map((eachData, index) => {
-          if (index === 0) {
-            return <input type={keypad} readOnly className={`item${index}`} key={`item${index + 1}`} value={total} />;
-          }
-          return <input type={keypad} onClick={handler} className={`item item${index}`} key={`item${index + 1}`} value={eachData} />;
-        })
-      }
-    </div>
+    <>
+      <p>Let&apos; do some math!</p>
+      <div className={calculator}>
+        {
+          data.map((eachData, index) => {
+            if (index === 0) {
+              return <input type={keypad} readOnly className={`item${index}`} key={`item${index + 1}`} value={total} />;
+            }
+            return <input type={keypad} onClick={handler} className={`item item${index}`} key={`item${index + 1}`} value={eachData} />;
+          })
+        }
+      </div>
+    </>
   );
 };
 
