@@ -10,6 +10,7 @@ import { useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
 import Calculator from './components/Calculator';
+import Quote from './components/Quote';
 import calculate from './logic/calculate';
 
 const App = () => {
@@ -48,6 +49,8 @@ const App = () => {
       <h1>Math Magicians</h1>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Calculator.js" element={<Calculator handler={handler} total={result} />} />
+        <Route path="/Quote.js" element={<Quote />} />
       </Routes>
     </div>
   );
