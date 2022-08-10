@@ -8,6 +8,7 @@
 import * as React from 'react';
 import { useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
+import Home from './components/Home';
 import Calculator from './components/Calculator';
 import calculate from './logic/calculate';
 
