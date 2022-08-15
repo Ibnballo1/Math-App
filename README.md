@@ -40,6 +40,7 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/Ibnballo1/Maths-Guru-App/issues)
 
 # Live Demo
+[Live Page](https://venerable-lolly-447136.netlify.app/)
 
 # Show your support
 
